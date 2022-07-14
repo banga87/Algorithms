@@ -1,3 +1,8 @@
+# Merge Sort breaks an array or list halves recursively
+# It then compares the two halves and orders them based on < and > operators
+# Once compared it glues them together and moves upwards in the call stack
+# Completed it should provide a sorted array or list
+
 def merge_sort(items):
     if len(items) <= 1:
         return items
@@ -30,8 +35,8 @@ def merge(left, right):
 
     return result
 
-unordered_list1 = [356, 746, 264, 569, 949, 895, 125, 455]
+# unordered_list1 = [356, 746, 264, 569, 949, 895, 125, 455]
 
-ordered_list1 = merge_sort(unordered_list1)
+# ordered_list1 = merge_sort(unordered_list1)
 
-print(ordered_list1)
+# print(ordered_list1)
